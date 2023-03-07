@@ -10,7 +10,7 @@ function checkpntalgo(ch) {
   }
   log = ch.length - esp;
   var crtvl = /[aeiouyAEOYUI]/g;
-  var  test = ch.match(regex);
+  var  test = ch.match(crtvl);
   vol = test.length
   nbrWords = ch.split(" ")
   return console.log(
